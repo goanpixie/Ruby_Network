@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: Ruby_Network_production
-  username: Ruby_Network
+  username: ubuntu
   password: <%= ENV['RUBY_NETWORK_DATABASE_PASSWORD'] %>
